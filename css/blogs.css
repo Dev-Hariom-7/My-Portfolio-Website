@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.center-me {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+header.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #ecf7f9;
+}
+
+.navBar {
+    font-family: "Alkatra", cursive;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.mainDiv {
+    max-width: 50%;
+}
+
+.heading {
+    color: #42f2f7;
+    font-size: 43px;
+    text-decoration: none;
+}
+
+.subDiv {
+    font-family: "Montserrat", sans-serif;
+    max-width: 50%;
+    margin-top: 25px;
+}
+
+.navItem {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+}
+
+.navItem li a {
+    margin: 20px;
+    text-decoration: none;
+    font-weight: 800;
+    box-shadow: 0px 0px 2px gray;
+    border-radius: 7px;
+}
+
+.navItem li a:hover {
+    color: #42f2f7;
+    border-radius: 7px;
+    /* border: 1px solid #42f2f7; */
+}
+
+.myWork {
+    font-family: sans-serif;
+    margin-top: 19px;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.project-section p {
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.project-section h3 {
+    font-family: sans-serif;
+}
+
+.target {
+    font-family: sans-serif;
+    color: #42f2f7;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projects .main {
+    background-color: #ecf7f9;
+    margin-top: 30px;
+    width: 75%;
+    height: 260px;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+/* .projects .main:hover {
+    border: 2px solid #42f2f7;
+    border-radius: 10px;
+} */
+
+.main {
+    font-family: sans-serif;
+}
+
+.sub {
+    margin-left: 19px;
+    margin-top: 19px;
+}
+
+.card-detail {
+    margin-top: 10px;
+}
+
+.card-view {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card-view div {
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px;
+}
+
+.card-view div:hover {
+    background: #48cae4;
+    cursor: pointer;
+}
+
+.blog-heading {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.blog-heading p {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#smooth-scroll div {
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 65px;
+    text-align: center;
+}
+
+#smooth-scroll .anchor {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+#smooth-scroll .anchor:hover {
+    color: #42f2f7;
+    text-decoration: 2px solid #42f2f7 underline;
+}
+
+#smooth-scroll div a {
+    text-decoration: none;
+    color: black;
+}
+
+#smooth-scroll div a:hover {
+    color: #42f2f7;
+}
+
+#myFooter {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#myFooter a img {
+    margin-left: 2px;
+    width: 30px;
+    height: 30px;
+}
+
+.outro {
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
