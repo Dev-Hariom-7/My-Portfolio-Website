@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 
 * {
@@ -25,26 +25,28 @@ header.sticky {
 }
 
 .navBar {
-    font-family: "Alkatra", cursive;
     display: flex;
     justify-content: space-between;
     max-width: 100%;
+    padding: 15px;
 }
 
 .mainDiv {
+    font-family: 'Bebas Neue', sans-serif;
     max-width: 50%;
 }
 
 .heading {
-    color: #42f2f7;
-    font-size: 43px;
+    color: #087EA4;
+    font-size: 35px;
+    font-weight: 900;
     text-decoration: none;
 }
 
 .subDiv {
     font-family: "Montserrat", sans-serif;
     max-width: 50%;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .navItem {
@@ -55,17 +57,20 @@ header.sticky {
 }
 
 .navItem li a {
+    color: black;
     margin: 20px;
     text-decoration: none;
     font-weight: 800;
-    box-shadow: 0px 0px 2px gray;
     border-radius: 7px;
+    box-shadow: 0px 0px 2px gray;
 }
 
 .navItem li a:hover {
-    color: #42f2f7;
-    border-radius: 7px;
-    /* border: 1px solid #42f2f7; */
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 27px;
+    outline: none;
+    transition: 0.2s ease-in-out;
 }
 
 .myWork {
@@ -87,7 +92,7 @@ header.sticky {
 
 .target {
     font-family: sans-serif;
-    color: #42f2f7;
+    color: #087ea4;
 }
 
 .projects {
@@ -144,7 +149,7 @@ header.sticky {
 }
 
 .card-view div:hover {
-    background: #48cae4;
+    background: #087ea4;
     cursor: pointer;
 }
 
@@ -160,11 +165,19 @@ header.sticky {
     font-weight: 600;
 }
 
+#smooth-scroll {
+    /* background-color: #ecf7f9; */
+    color: #183153;
+    margin-top: 30px;
+    padding: 40px;
+    border-radius: 5px;
+}
+
 #smooth-scroll div {
     font-family: sans-serif;
     font-size: 2em;
     font-weight: bold;
-    margin-top: 65px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -173,41 +186,26 @@ header.sticky {
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: #183153;
 }
 
 #smooth-scroll .anchor:hover {
-    color: #42f2f7;
-    text-decoration: 2px solid #42f2f7 underline;
+    color: #087EA4;
+    text-decoration: 2px solid #087EA4 underline;
 }
 
 #smooth-scroll div a {
     text-decoration: none;
-    color: black;
+    color: #183153;
+}
+
+#smooth-scroll h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: sans-serif;
+    text-decoration: 2px solid #183153 underline;
 }
 
 #smooth-scroll div a:hover {
-    color: #42f2f7;
-}
-
-#myFooter {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-#myFooter a img {
-    margin-left: 2px;
-    width: 30px;
-    height: 30px;
-}
-
-.outro {
-    text-align: center;
-    font-family: sans-serif;
-    font-style: italic;
-    font-weight: 600;
+    color: #087EA4;
 }
