@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 
 * {
@@ -22,6 +22,7 @@ header.sticky {
     position: sticky;
     top: 0;
     background-color: #ecf7f9;
+    border-radius: 5px;
 }
 
 .navBar {
@@ -32,12 +33,12 @@ header.sticky {
 }
 
 .mainDiv {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     max-width: 50%;
 }
 
 .heading {
-    color: #087EA4;
+    color: #087ea4;
     font-size: 35px;
     font-weight: 900;
     text-decoration: none;
@@ -57,99 +58,108 @@ header.sticky {
 }
 
 .navItem li a {
-    color: black;
-    margin: 20px;
+    color: #183153;
+    margin: 15px;
     text-decoration: none;
     font-weight: 800;
-    border-radius: 7px;
-    box-shadow: 0px 0px 2px gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px #183153;
 }
 
 .navItem li a:hover {
+    color: #087ea4;
     padding: 5px;
-    border: 1px solid grey;
-    border-radius: 27px;
+    border: 1px solid #183153;
     outline: none;
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-in;
 }
 
 .myWork {
-    font-family: sans-serif;
-    margin-top: 19px;
+    color: #087ea4;
+    margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 45px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .project-section p {
-    font-family: cursive;
+    color: #183153;
+    font-family: sans-serif;
     font-size: 20px;
-    margin-top: -20px;
+    font-weight: 500;
 }
 
 .project-section h3 {
     font-family: sans-serif;
+    color: #183153;
 }
 
 .target {
     font-family: sans-serif;
-    color: #087ea4;
+    color: #183153;
 }
 
-.projects {
+/* .projects {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.projects .main {
-    background-color: #ecf7f9;
-    margin-top: 30px;
-    width: 75%;
-    height: 260px;
-    outline: none;
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px gray;
-}
-
-/* .projects .main:hover {
-    border: 2px solid #42f2f7;
-    border-radius: 10px;
 } */
 
-.main {
+.projects .main {
     font-family: sans-serif;
+    background-color: #ecf7f9;
+    margin-top: 20px;
+    max-width: 50%;
+    min-height: 200px;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #183153;
+}
+
+.projects .main:hover {
+    scale: 1.02;
+    transition: 0.1s ease;
+    cursor: grab;
 }
 
 .sub {
-    margin-left: 19px;
-    margin-top: 19px;
+    color: #183153;
+    padding: 15px;
 }
 
 .card-detail {
-    margin-top: 10px;
+    margin-top: 4px;
+}
+
+.card-detail p {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .card-view {
-    margin-top: 30px;
-    display: flex;
-    justify-content: flex-start;
-    gap: 25px;
-    flex-wrap: wrap;
+    margin-top: 21px;
+    margin-bottom: 15px;
+    text-align: left;
+    width: 15%;
 }
 
 .card-view div {
     font-family: sans-serif;
+    text-align: center;
     outline: none;
     border: none;
-    background-color: transparent;
+    background-color: #087ea4;
+    color: white;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 5px;
     cursor: pointer;
-    box-shadow: 0px 0px 5px;
 }
 
 .card-view div:hover {
-    background: #087ea4;
+    background: #183153;
+    transition: 0.1s ease-in;
     cursor: pointer;
 }
 
@@ -162,6 +172,7 @@ header.sticky {
 
 .blog-heading p {
     font-family: sans-serif;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -190,8 +201,8 @@ header.sticky {
 }
 
 #smooth-scroll .anchor:hover {
-    color: #087EA4;
-    text-decoration: 2px solid #087EA4 underline;
+    color: #087ea4;
+    text-decoration: 2px solid #087ea4 underline;
 }
 
 #smooth-scroll div a {
@@ -207,5 +218,5 @@ header.sticky {
 }
 
 #smooth-scroll div a:hover {
-    color: #087EA4;
+    color: #087ea4;
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 
 * {
@@ -33,12 +33,12 @@ header.sticky {
 }
 
 .mainDiv {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   max-width: 50%;
 }
 
 .heading {
-  color: #087EA4;
+  color: #087ea4;
   font-size: 35px;
   font-weight: 900;
   text-decoration: none;
@@ -67,7 +67,7 @@ header.sticky {
 }
 
 .navItem li a:hover {
-  color: #087EA4;
+  color: #087ea4;
   padding: 5px;
   border: 1px solid #183153;
   outline: none;
@@ -106,7 +106,7 @@ header.sticky {
   font-size: 30px;
   font-weight: 600;
   font-family: sans-serif;
-  color: #087EA4;
+  color: #087ea4;
 }
 
 .work-proof {
@@ -122,7 +122,7 @@ header.sticky {
   border: none;
   outline: none;
   border-radius: 5px;
-  background: #A4001E;
+  background: #a4001e;
   cursor: pointer;
 }
 
@@ -130,7 +130,6 @@ header.sticky {
   text-decoration: none;
   color: white;
   cursor: pointer;
-
 }
 
 .work-proof button:hover {
@@ -142,7 +141,7 @@ header.sticky {
 
 .majduri {
   font-family: sans-serif;
-  color: #087EA4;
+  color: #087ea4;
   margin-top: 40px;
   margin-bottom: 20px;
   font-size: 30px;
@@ -151,9 +150,9 @@ header.sticky {
 
 .projects {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 9.8rem;
 }
 
 .projects .main {
@@ -163,19 +162,23 @@ header.sticky {
   font-family: sans-serif;
   outline: none;
   border-radius: 5px;
-  box-shadow: 1px 1px 5px gray;
+  box-shadow: 0px 0px 2px #183153;
 }
 
 .projects .main:hover {
-  border: 2px solid #087EA4;
+  border: 2px solid #087ea4;
   transition: 0.1s ease-in;
   cursor: grab;
 }
 
 .sub {
   color: #183153;
-  margin-left: 19px;
-  margin-top: 19px;
+  padding: 10px;
+}
+
+.sub p {
+  margin-top: 3px;
+  font-weight: 600;
 }
 
 .card-detail {
@@ -186,7 +189,7 @@ header.sticky {
   margin-top: 15px;
   display: flex;
   justify-content: flex-start;
-  gap: 7px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
@@ -200,7 +203,7 @@ header.sticky {
 }
 
 .card-view {
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   justify-content: flex-start;
   gap: 25px;
@@ -211,7 +214,7 @@ header.sticky {
   font-family: sans-serif;
   outline: none;
   border: none;
-  background-color: #087EA4;
+  background-color: #087ea4;
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -236,6 +239,11 @@ header.sticky {
   font-weight: 600;
 }
 
+.card-detail p {
+  font-weight: normal;
+  color: #183153;
+}
+
 .btn {
   display: flex;
   justify-content: center;
@@ -244,7 +252,7 @@ header.sticky {
 
 .btn button {
   padding: 13px;
-  background-color: #087EA4;
+  background-color: #087ea4;
   outline: none;
   border: none;
   border-radius: 5px;
@@ -373,8 +381,8 @@ header.sticky {
 }
 
 #smooth-scroll .anchor:hover {
-  color: #087EA4;
-  text-decoration: 2px solid #087EA4 underline;
+  color: #087ea4;
+  text-decoration: 2px solid #087ea4 underline;
 }
 
 #smooth-scroll div a {
@@ -390,5 +398,5 @@ header.sticky {
 }
 
 #smooth-scroll div a:hover {
-  color: #087EA4;
+  color: #087ea4;
 }
