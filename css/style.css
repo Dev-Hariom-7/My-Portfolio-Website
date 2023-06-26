@@ -35,13 +35,29 @@ header.sticky {
 .mainDiv {
   font-family: "Bebas Neue", sans-serif;
   max-width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.mainDiv img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 .heading {
   color: #087ea4;
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: 2px solid #087ea4 underline;
+}
+
+.heading::first-letter {
+  color: #a4001e;
   font-size: 35px;
   font-weight: 900;
-  text-decoration: none;
+  text-decoration: 2px solid #a4001e underline;
 }
 
 .subDiv {
@@ -78,15 +94,20 @@ header.sticky {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 .userImage img {
-  height: 50vh;
+  height: 40vh;
   width: 30vw;
   outline: none;
   border: 1px solid #183153;
   border-radius: 43px;
+  opacity: 0.7;
+}
+
+.userImage img:hover {
+  opacity: 1.0;
   cursor: no-drop;
 }
 
@@ -140,9 +161,10 @@ header.sticky {
 }
 
 .majduri {
+  text-align: center;
   font-family: sans-serif;
   color: #087ea4;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-bottom: 20px;
   font-size: 30px;
   font-weight: 600;
@@ -150,9 +172,10 @@ header.sticky {
 
 .projects {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 9.8rem;
+  gap: 1rem;
 }
 
 .projects .main {
@@ -274,18 +297,19 @@ header.sticky {
   transition: 0.1s ease-in;
 }
 
+
 .mySkills {
-  max-width: 100%;
+  margin-left: -8px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
 }
 
 .mySkills img {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   outline: none;
   border-radius: 5px;
   box-shadow: 0px 0px 2px #183153;
@@ -316,7 +340,7 @@ header.sticky {
 }
 
 .footerImg img {
-  height: 35vh;
+  height: 40vh;
   width: 30vw;
   margin-top: 30px;
   outline: none;

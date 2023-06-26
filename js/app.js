@@ -3,6 +3,7 @@ let typed = new Typed(".specs", {
     "JavaScript Developer.",
     "ReactJS Developer.",
     "Front-End Developer.",
+    "UI Developer",
   ],
   typeSpeed: 100,
   backSpeed: 100,
